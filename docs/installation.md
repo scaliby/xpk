@@ -31,6 +31,7 @@ Ensure the following tools are installed and configured before proceeding.
     * Run `gcloud init`
     * [Authenticate](https://cloud.google.com/sdk/gcloud/reference/auth/application-default/login) to Google Cloud.
     * *Check:* `gcloud auth list`
+    * *Install auth plugin if needed*: `gcloud components install gke-gcloud-auth-plugin`
 * **Docker**: [Install from here](https://docs.docker.com/engine/install/).
     * *Linux users:* [Configure sudoless docker](https://docs.docker.com/engine/install/linux-postinstall/).
     * Run `gcloud auth configure-docker` to enable image uploads to the registry.
